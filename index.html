@@ -1,0 +1,247 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- 1 -->
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- responsive -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- fonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+	<!-- burguer -->
+	<link rel="stylesheet" type="text/css" href="icomoon/icono.css">
+	
+	<title>Unidad 12</title>
+</head>
+<body>
+
+	<header>
+		<div id="logo"> 
+		<a href="#Inicio"><img src="img/angrylogo75.png" class="logo"></a>
+		</div>
+		<nav id="iconresp"><a href="#menunav" onclick="hamburguesa()">
+			<span class="icon-menu"></span>
+		</a></nav>
+		<nav id="menunav">
+			<ul>
+				<li><a href="#Inicio"> Inicio</li></a>
+				<li><a href="#Nosotros"> Nosotros</li></a>
+				<li><a href="#Servicios"> Servicios</li></a>
+				<li><a href="#datos"> Contacto</li></a>
+				<li><a href="#promociones">Promos</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- 1 -->
+
+	<section id="Inicio">
+		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" >
+  		<div class="carousel-inner"  >
+   			<div class="carousel-item active">
+   			<img src="img/slide3.2.jpg" class="d-block w-100 " alt="...">
+   				<div class="carousel-caption">
+        			<h4>Bienvenido a Hell Sushi</h4>
+        			<p>Con su compra también participa por un sorteo para viajar a las playas de La Tierra Media.</p>
+       				 <a href="#promociones" class="btn btn-dark">Promociones</a>
+      			</div>
+      		</div>
+   		<div class="carousel-item">
+      		<img src="img/slide2.2.jpg" class="d-block w-100" alt="...">
+    	</div>
+    	<div class="carousel-item">
+      		<img src="img/slide1.2.jpg" class="d-block w-100" alt="...">
+    	</div>
+  		</div>
+ 			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+ 			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    		<span class="visually-hidden">Previous</span>
+  			</button>
+  			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    		<span class="visually-hidden">Next</span>
+  			</button>
+		</div>
+
+		<div class="bottom">
+			<div class="bot1"></div>
+		</div>
+
+	</section>
+
+	<!-- 2 -->
+
+	<section id="Nosotros">
+		<div id="izq2" onmouseover="show('textcen')" onmouseout="hide('textcen')">
+			<a href="#Nosotros"><img src="img/palitos.jpg"></a>
+		</div>
+		<div id="cen2">
+			<div id="textcen" style="display: none;">
+				<p>Como inconfundible referente del sushi y cocina de tendencia asiática, logramos transmitir esa esencia tradicional y novedosa a través de sabores locales y exclusivos.<br/><br/>Disfrute de los ingredientes que combinan los sabores clásicos y modernos que fuimos descubriendo en nuestros viajes.</p>
+			</div>
+		</div>
+		<div id="der2">
+			<div id="tbox2" onmouseover="show('textbox')" onmouseout="hide('textbox')">
+				<div id="textbox" style="display: none;">
+					<p>Desde 2020 en Córdoba, HELL SUSHI ofrece deliciosos platos, preparados y elaborados al momento con ingredentes frescos y de calidad.</p>
+				</div>	
+			</div>
+		</div>
+		<div class="bottom">
+			<div class="bot1"></div>
+		</div>
+	</section>
+
+	<!-- 3 -->
+
+	<section id="Servicios">
+	  <div id="cont1">
+		<div id="menuizq">
+			<div class="img-box"><a href="#"><img src="img/niguiri.jpg"></a></div>
+	    </div>
+		<div id="textizq">
+			<p class="menu">Menú Salón</p>
+		</div>
+	  </div>
+
+	  <div id="cont2">
+		<div id="menuder">
+			<div class="img-box"><a href="#"><img src="img/soja.jpg"></a></div>
+		</div>	
+		<div id="textder">
+			<p>Menú Delivery</p>
+		</div>
+	 </div>
+		<div class="bottom">
+			<div class="bot1"></div>
+		</div>
+		
+	</section>
+
+	<!-- 4 -->
+
+	<section id="promociones">
+		<div class="container-fluid">
+							<!-- 1 -->
+			<div class="row">
+				<div class="col-lg-4 col-sm-6" id="prom1">
+					<div class="card text-white bg-dark mx-auto" style="width: 17rem;">
+ 					<img src="img/roll1.jpg" class="card-img-top" style="height: 250px;" alt="...">
+ 					 <div class="card-body">
+ 					 	<p class="h3 text-center">Combinado Hell</p>
+ 					 	<p class="h6 text-center">(Lunes a Jueves)</p>
+    					<p class="card-text text-center" style="font-family: 'Roboto', sans-serif; font-size: 16px;">
+    					Con su compra de 15 piezas le regalamos 5.</p>
+  					 </div>
+					</div>
+				</div>
+							<!-- 2 -->
+				<div class="col-lg-4 col-sm-6" id="prom2">
+				 	<div class="card text-white bg-dark mx-auto" style="width: 17rem;" >
+ 					<img src="img/sushibox1.jpg" class="card-img-top" style="height: 250px;" alt="...">
+ 					 <div class="card-body">
+						<p class="h3 text-center">Combinado Mordor</p>
+						<p class="h6 text-center">(Viernes)</p>
+    					<p class="card-text text-center" style="font-family: 'Roboto', sans-serif; font-size: 16px;">
+    					Con su compra de 20 piezas, se lleva 3 chinas de carne de regalo.</p>
+  					 </div>
+					</div>
+				</div>
+							<!-- 3 -->
+				<div class="col-lg-4 offset-lg-0 col-sm-6 offset-sm-3" id="prom3">
+					<div class="card text-white bg-dark mx-auto" style="width: 17rem;">
+ 					<img src="img/niguirito1.jpg" class="card-img-top" style="height: 250px;" alt="...">
+ 					 <div class="card-body">
+ 					 	<p class="h3 text-center">Combinado Sauron</p>
+ 					 	<p class="h6 text-center">(Sábado y Domingo)</p>
+    					<p class="card-text text-center" style="font-family: 'Roboto', sans-serif; font-size: 16px;">15% OFF pagando en efectivo. Retiro por el local.</p>
+  					 </div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div class="bottom">
+			<div class="bot1"></div>
+		</div>
+	</section>	
+
+	<!-- 5 -->	
+
+	<section id="Contacto">
+		<div id="ubicacion"></div>
+		<div class="bottom">
+			<div class="bot1"></div>
+		</div>
+    <!-- Form bootstrap -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2 col-sm-12" id="form">
+					<form>
+						<div class="row">
+							<div class="col-lg-12 col-sm-12 align-items-center">
+						<input type="text" placeholder="Nombre" class="form-control" required maxlength="50">
+						<input type="email" placeholder="Correo electrónico" class="form-control" required>
+						<select  class="form-control">
+							<option selected>Motivo</option>
+							<option value="1">Reclamo</option>
+							<option value="2">Consulta</option>
+							<option value="3">Otros</option>
+						</select>
+						<textarea placeholder="Mensaje" rows="6" class="form-control"></textarea>
+						<input type="submit" class="btn_dark">
+						  </div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	<!-- Form bootstrap -->	
+	<div class="bottom">
+			<div class="bot1"></div>
+		</div>		
+	</section>
+
+	<!-- Pie -->
+
+	<footer>
+		<div id="datos">
+			<p class="titulos">Contacto</p>
+			<p class="letracolors">
+			Dir: &nbsp;&nbsp;Av. Colón 1300</br>
+			Tel: &nbsp;&nbsp;351-156660015</br>
+	        contacto@hellsushi.com</br>
+	    	</p>
+		</div>
+		<nav class="redes">
+			 <p class="titulos">Redes Sociales</p>
+		  <ul>
+			<li><a href="#"><img src="img/face1.png" title="Facebook" /></a></li>
+		    <li><a href="#"><img src="img/insta1.png" title=" Instagram" /></a></li>	
+		  	<li><a href="#"><img src="img/twitter1.png" title="Twitter" /></a></li>
+		  	<li><a href="#"><img src="img/whatsapp.png" title="Whatsapp" /></a></li>
+		  </ul>
+		</nav>
+		<div id="horarios">
+				<p class="titulos">Horario</p>
+		  	    <p class="letracolors">Lunes a Domingo: </br> 19 hs a 00 hs.</p>
+		</div>
+		<div id="inc">
+			<p> © 2021 &nbsp;&nbsp;V i r u s &nbsp;&nbsp;T &nbsp;&nbsp;Inc.</p>
+		</div>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ 	<script type="text/javascript" src="js/unit8.js"></script>
+</body>
+</html>
